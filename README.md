@@ -26,9 +26,9 @@ conda activate ENVNAME
 
 Note that after `conda activate ENVNAME`, your terminal should show `(ENVNAME)`. 
 
+### Search and Install
 To search/install a particular package(s):
 
-### Search and Install
 ```bash
 conda search PACKAGENAME
 conda install PACKAGENAME1 [PACKAGENAME2]
@@ -37,7 +37,7 @@ conda install PACKAGENAME1 [PACKAGENAME2]
 I do not recommend installing any package in the `(base)` environment (except `mamba`, see below), create a new environment for any new project or workflow.
 
 ### Remove a package (or an environment)
-To delete a package or an entire environment:
+To delete a package(s) or an entire environment:
 
 ```bash
 conda remove PACKAGENAME1 [PACKAGENAME2]
@@ -47,7 +47,7 @@ conda remove -n ENVNAME --all
 Note that `-n` is used to specify the environment for `conda` to act on, otherwise `conda` will act on the current active environment.
 
 ### Info
-To show how many environments are currently managed by:
+To show how many environments are currently managed by `conda`:
 
 ```bash
 conda info --env
