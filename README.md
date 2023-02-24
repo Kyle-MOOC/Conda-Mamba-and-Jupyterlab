@@ -64,7 +64,7 @@ conda install -n base -c conda-forge mamba
 ```
 
 ## Conda vs Mamba
-Basically mamba is a drop-in replacement for conda, so you can use mamba as you are using conda with few exception.
+Basically mamba is a drop-in replacement for conda, so you can use mamba as you are using conda with few exceptions:
 
 - To use `mamba activate` , it need to be initialized by `mamba init`.
 - Instead of `conda search`, we need to `mamba repoquery search`.
