@@ -60,7 +60,7 @@ conda info --env
 ## Installation of Mamba
 
 ```bash
-conda install -n mamba -c conda-forge
+conda install -n base -c conda-forge mamba
 ```
 
 ## Conda vs Mamba
