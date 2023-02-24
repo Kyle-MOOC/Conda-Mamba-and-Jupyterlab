@@ -2,7 +2,7 @@
 
 # Conda
 
-[Conda](https://docs.conda.io/en/latest/) is a package management mainly for Python but can basically used for any language. There are 2 installer, namely [miniconda](https://docs.conda.io/en/latest/miniconda.html) and [Anaconda](https://www.anaconda.com/). Miniconda is basically the minimal installer for conda while Anaconda is miniconda plus all the additional conda packages that are frequently used by data scientist.
+[Conda](https://docs.conda.io/en/latest/) is a package management mainly for Python but can basically used for any language. There are 2 installers, namely [miniconda](https://docs.conda.io/en/latest/miniconda.html) and [Anaconda](https://www.anaconda.com/). Miniconda is basically the minimal installer for conda while Anaconda is miniconda plus all the additional conda packages that are frequently used by data scientist.
 
 ## Installation of Conda
 ```bash
